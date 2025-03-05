@@ -19,10 +19,11 @@ cd cosmic-ext-extra-sessions
 git submodule update --init
 ```
 
-And finally, instally for niri with:
+And finally, build and install for niri with:
 
 ```bash
-just install-niri
+just _build
+sudo just install-niri
 ```
 
 ### Option 2 - Manual installation
