@@ -22,7 +22,7 @@ git submodule update --init
 And finally, build and install for niri with:
 
 ```bash
-just _build
+just build
 sudo just install-niri
 ```
 

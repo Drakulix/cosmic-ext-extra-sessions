@@ -1,6 +1,6 @@
 just := just_executable()
 
-_build:
+build:
   {{ just }} cosmic-ext-alternative-startup/build-release
 
 _install rootdir="" prefix="/usr/local":
