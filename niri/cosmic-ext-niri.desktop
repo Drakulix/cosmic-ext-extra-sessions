@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=COSMIC on niri
 Comment=This session logs you into the COSMIC desktop on niri
-Exec=/usr/bin/start-cosmic-ext-niri
+Exec=/usr/local/bin/start-cosmic-ext-niri
 Type=Application
 DesktopNames=niri
