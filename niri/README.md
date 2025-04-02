@@ -23,6 +23,7 @@ And finally, build and install for niri with:
 
 ```bash
 just build
+sudo just install
 sudo just install-niri
 ```
 
@@ -32,6 +33,8 @@ Copy the following files:
 
 - `start-cosmic-ext-niri` somewhere in your `PATH`, e.g. /usr/local/bin
 - `cosmic-ext-niri.desktop` into `/usr/share/wayland-sessions/cosmic-ext-niri.desktop`
+
+## Configuration
 
 ### Update your Niri config
 

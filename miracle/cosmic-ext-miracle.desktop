@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=COSMIC on miracle
 Comment=This session logs you into the COSMIC desktop on miracle
-Exec=/usr/bin/start-cosmic-ext-miracle
+Exec=/usr/local/bin/start-cosmic-ext-miracle
 Type=Application
 DesktopNames=miracle

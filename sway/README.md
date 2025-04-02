@@ -2,9 +2,34 @@
 
 This is cosmic running on sway!
 
-## Install
+### Option 1 - Cloning the repo
 
-Either clone the repo and run `just install-sway` or install manually:
+Clone the repo with:
+
+```bash
+git clone https://github.com/Drakulix/cosmic-ext-extra-sessions.git
+```
+
+Within the repo directory, install submodules:
+
+```bash
+cd cosmic-ext-extra-sessions
+git submodule update --init
+```
+
+And finally, build and install for sway with:
+
+```bash
+just build
+just build-sway
+sudo just install
+sudo just install-sway
+```
+
+### Option 2 - Manual installation
+
+Copy the following files:
+
 - `start-cosmic-ext-sway` somewhere in your `PATH`, e.g. `/usr/local/bin`
 - `cosmic-ext-sway.desktop` into `/usr/share/wayland-sessions/cosmic-ext-sway.desktop`
 - `config-cosmic` to `/etc/sway/config-cosmic`

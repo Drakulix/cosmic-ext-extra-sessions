@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=COSMIC on sway
 Comment=This session logs you into the COSMIC desktop on sway
-Exec=/usr/bin/start-cosmic-ext-sway
+Exec=/usr/local/bin/start-cosmic-ext-sway
 Type=Application
 DesktopNames=sway
