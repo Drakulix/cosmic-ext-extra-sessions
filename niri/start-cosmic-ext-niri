@@ -44,7 +44,7 @@ if command -v systemctl >/dev/null; then
 fi
 # Run cosmic-session
 if [[ -z "${DBUS_SESSION_BUS_ADDRESS}" ]]; then
-    exec /usr/bin/dbus-run-session -- /usr/bin/cosmic-session niri
+    exec /usr/bin/dbus-run-session -- /usr/bin/cosmic-session niri --session
 else
-    exec /usr/bin/cosmic-session niri
+    exec /usr/bin/cosmic-session niri --session
 fi
